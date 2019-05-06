@@ -61,8 +61,8 @@ client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By ItzTexo
     let pages = [`**
          **__اوامر عامة__**
-
-`**${prefix}allbots/لعرض جميع البوتات الي بالسيرفر
+**
+${prefix}allbots/لعرض جميع البوتات الي بالسيرفر
 ${prefix}server/يعرض لك معلومات عن السيرفر
 ${prefix}bot/يعرض لك كل معلومات البوت
 ${prefix}count/يعرض لك عدد الاشخاص بالسيرفر بدون بوتات
@@ -92,8 +92,8 @@ ${prefix}embed/يكرر الي تقولو بشكل حلو
 ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي
 ${prefix}inv/لدعوة البوت الى سيرفرك
 ${prefix}support/سيرفر الدعم
-${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت**`
-
+${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
+**
 ,`
          **__اوامر ادارية__**
 **
